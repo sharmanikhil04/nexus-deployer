@@ -78,7 +78,8 @@ var createAndUploadArtifacts = function (options, done) {
                 '--output', '/dev/stderr',
                 '--write-out', '"%{http_code}"',
                 '--upload-file', fileLocation,
-                '--noproxy', options.noproxy ? options.noproxy : '127.0.0.1'
+                '--noproxy', options.noproxy ? options.noproxy : '127.0.0.1',
+                '--fail'
             ];
 
             if (options.auth) {
