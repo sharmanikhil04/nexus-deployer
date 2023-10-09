@@ -1,4 +1,10 @@
-# nexus-deployer
+# @sharmanikhil04/nexus-deployer
+
+## Why this repo?
+
+This repo is a fork of https://github.com/cthorne66/nexus-deployer.
+
+It was forked to update dependencies and keep this upto date, especially prevent security issues due to dependencies of this repository.
 
 > Nexus Artifact Deployer from grunt
 
